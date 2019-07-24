@@ -1,0 +1,18 @@
+import turtle
+yoav=turtle.Turtle()
+turtle.shape('turtle')
+ori = turtle.clone()
+ori.shape('arrow')
+ori.goto(100,0)
+ori.left(90)
+ori.forward(100)
+ori.goto(0,100)
+ori.backward(100)
+x = yoav.clone()
+x.shape('classic')
+x.color('blue')
+x.backward(200)
+x.stamp()
+x.goto(100,-20)
+x.clearstamps()
+turtle.mineloop
